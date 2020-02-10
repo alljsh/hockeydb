@@ -1,0 +1,27 @@
+@import './variables';
+
+.dashboard-container {
+    background: $gray_color;
+    // font-family: $main_font;
+    height: 100vh;
+
+    a {
+        color: $nav_link;
+    }
+
+    .dashboard-content {
+        width: 100%;
+        // background: red;
+    }
+
+    .dashboard-header {
+        background: $gray_color;
+        border-bottom: 5px solid $white_color;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .dashboard-container {
+        display: flex;
+    }
+}
